@@ -5,12 +5,86 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Azelyth Lab</title>
+  <style>
+    * { box-sizing: border-box; }
+
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: #fff8f2;
+      color: #111;
+      text-align: center;
+    }
+
+    header {
+      background: #080808;
+      color: white;
+      padding: 30px 15px;
+    }
+
+    .logo {
+      font-size: 32px;
+      font-weight: bold;
+    }
+
+    .orange { color: #ff7900; }
+
+    main {
+      padding: 65px 20px 90px;
+    }
+
+    h1 {
+      font-size: clamp(32px, 6vw, 56px);
+      margin-bottom: 20px;
+    }
+
+    p {
+      font-size: 19px;
+      line-height: 1.6;
+      max-width: 650px;
+      margin: 0 auto 35px;
+    }
+
+    button {
+      background: #ff7900;
+      color: white;
+      border: none;
+      padding: 18px 30px;
+      border-radius: 35px;
+      font-size: 18px;
+      font-weight: bold;
+      cursor: pointer;
+    }
+
+    footer {
+      background: #ff7900;
+      height: 35px;
+    }
+  </style>
 </head>
 <body>
-  <h1>Bienvenue dans Azelyth Lab !</h1>
-  <p>Je commence mon apprentissage du vibe coding.</p>
-  <button onclick="alert('Bravo ! Ton premier bouton fonctionne.')">
-    Clique ici
-  </button>
+  <header>
+    <div class="logo">
+      AZELYTH <span class="orange">LAB</span>
+    </div>
+    <p>Création de sites et d'applications avec l'IA</p>
+  </header>
+
+  <main>
+    <h1>Bienvenue dans<br>
+      <span class="orange">Azelyth Lab !</span>
+    </h1>
+
+    <p>
+      Mon laboratoire de création de sites
+      et d'applications avec l'intelligence artificielle.
+    </p>
+
+    <button onclick="alert('Bienvenue dans Azelyth Lab !')">
+      🚀 Découvrir mon univers
+    </button>
+  </main>
+
+  <footer></footer>
 </body>
 </html>
